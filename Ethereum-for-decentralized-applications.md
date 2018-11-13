@@ -1,27 +1,16 @@
 ![Ethereum for decentralized applications](https://upload-images.jianshu.io/upload_images/217988-c178b9527b06b960.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 标签：
-Blockchain，DApp，Ethereum
+Blockchain, DApps, Decentralized Applications, Ethereum
 
 ## 目标受众：
-* 目标受众：区块链开发人员
+* 目标受众：区块链产品经理、架构师、开发人员
 
 ## 关注问题：
-DApp 是一种运行在去中心化 P2P 网络上，没有任何一个节点可以获得完全控制权并且源码开放，含有内部激励的网络应用。
-
-DApp和App之间最大的不同就在这D（Decentralized）上，这个D有两层含义，第一它具备分布式（Distributed）的特征，第二它具备分权（Decentralized）的特征。
-
-分布式理解起来比较简单，这个app是部署到多个节点上的，不用害怕单点故障。
-关键是这个分权比较难以理解。在这里，分权其实也包含两层含义。第一点，应用的开发者在上线应用之后，就不能随意修改升级应用内容，当然更加不可能修改数据；第二点，应用本身具有博弈的特点，都把用户想象成理性经济人，做事之前考虑成本，这也是为什么大多数DApp都有它内置的代币（Token，也作通证）。
-
+* 互联网发展至今，大部分网络应用都是中心化的服务模式。这种集中式的服务模式容易导致服务内容缺乏透明度，用户隐私泄露、数据被滥用等问题。服务方和消费者之间的交易需要由极高的公司信誉和完善的评价系统甚至社会征信体系背书。部分服务天然存在单点故障等工程上的缺陷。
 
 ## 解决方案：
-DApp 是去中心化应用（Decentralized Application）的简称。与之相对的是中心化应用（Centralized Application），比如现在常见的BS模式下的 web 应用。而中心化应用通常会出于可用性的考虑将实例部署到多个节点上，形成分布式应用。所以说，中心化应用可以是分布式的，也可以是非分布式，但是去中心化应用一定是分布式的。那么由此就会引出一个思考，去中心化应用和现在的分布式应用的区别到底在哪里呢？去中心化应用具有四个基本特点：
-
-* 开源
-* 内部货币
-* 去中心化的共识机制
-* 无单点故障缺陷
+* DApp 是去中心化应用（Decentralized Application）的简称。它是一种运行在区块链网络上含有内部代币激励并且开源的网络应用。DApp 天然是分布式的应用，因此避免了单点故障的缺陷。区块链上的用户数据通常是用加密的方式存储，数据的所有权归属用户，而非DApp 的开发者。DApp 的后端应用是部署在区块链上的智能合约，它具备预定义业务规则和确定性执行的特征，使得在弱信任的环境下也能进行交易撮合。其中涉及的网络资源的消耗由数字货币经济模型予以激励和补偿。
 
 ## 解读：
 想象一个场景，我们在一个没有淘宝这种电商平台下，怎么和个体商家做交易？
@@ -53,11 +42,16 @@ DApp 是去中心化应用（Decentralized Application）的简称。与之相�
 ## Blip来源：
 ::Techniques (ASSESS[ 2017.11 | 2018.05 ])::
 
-## 相关Blip
-
+## 相关Blip：
+* [Solidity | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/solidity)
+* [Truffle | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/truffle)
+* [Openzeppelin | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/openzeppelin)
+* [Quorum | Techniques | Technology Radar | ThoughtWorks]
 ## 延展阅读：
+* [The General Theory of Decentralized Applications, Dapps](https://github.com/DavidJohnstonCEO/DecentralizedApplications)
 * [Decentralized Applications](https://blockchainhub.net/decentralized-applications-dapps/)
 * [Introduces and lists Ethereum dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
+* [购买合约源码](https://github.com/crypedit/purchase)
 
 ## 支持工具：
 * [Solidity](https://solidity.readthedocs.io/en/v0.4.24/)
