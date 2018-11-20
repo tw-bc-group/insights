@@ -12,11 +12,11 @@ Blockchain, DApps, Decentralized Applications, Ethereum
 
 ## 关注问题：
 
-* 互联网发展至今，大部分网络应用都是中心化的服务模式。这种集中式的服务模式容易导致服务内容缺乏透明度，用户隐私泄露、数据被滥用等问题。服务方和消费者之间的交易需要由极高的公司信誉和完善的评价系统甚至社会征信体系背书。部分服务天然存在单点故障的缺陷。
+* 区块链技术起源于比特币，由于天生具备数字货币的特质，这项技术在 fintech 领域受到广泛关注，尤其获得了金融服务业的青睐。不过，区块链技术在以太坊（Ethereum）的拓展下，已经具备开发各种应用的能力，这些部署在区块链上通常含有内部代币激励并且开源的应用被称之为去中心化应用（Decentralized Application, DApp），DApp 就像现在的应用一样，能够惠及人们生活的方方面面，同时融入区块链的独特优势。
 
 ## 解决方案：
 
-* DApp是去中心化应用（Decentralized Application）的简称。它是一种运行在区块链网络上含有内部代币激励并且开源的网络应用。DApp天然是分布式应用，因此避免了单点故障。区块链上的用户数据通常是用加密方式存储，数据的所有权归属用户，而非DApp的开发者。DApp的后端程序是部署在区块链上的智能合约，智能合约是一组预定义的业务规则，具备确定性（Deterministic）执行的特征，能有效降低信任成本。DApp中消耗的资源由数字货币经济模型予以补偿或激励。
+* 以太坊是一个部署和运行 DApp 的后端程序——智能合约（Smart Contracts）的去中心化平台。它提供了专门面向合约的编程语言 Solidity 和运行合约的虚拟机（EVM）实现，得益于其周边的开源生态，很多开源工具，如：Truffle, Ganache, MetaMask, MyEtherWallet 也让编写和部署智能合约变得更加方便。同时，以太坊还维护了多条测试链，如：Ropsten, Kovan 和 Rinbkey 辅助开发者测试合约，减少部署到主网的风险。
 
 ## 解读：
 
@@ -55,6 +55,7 @@ Blockchain, DApps, Decentralized Applications, Ethereum
 * [Solidity | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/solidity)
 * [Truffle | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/truffle)
 * [Openzeppelin | Languages and Frameworks | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/openzeppelin)
+* [Ethereum | Platforms | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/platforms/ethereum)
 * [Quorum | Platforms | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/platforms/quorum)
 
 ## 延展阅读：
