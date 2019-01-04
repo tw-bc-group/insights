@@ -29,10 +29,9 @@ Blockchain, DApps, Decentralized Applications, Ethereum
 2. 商家确认合约里有1块钱之后就会发货
 3. 然后顾客确认收货之后，合约自动把这1块钱打给商家
 
-![第一回合](https://upload-images.jianshu.io/upload_images/217988-e0e24f705c4c683d.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![第一回合](https://insights.thoughtworks.cn/wp-content/uploads/2018/12/1.jpeg)
 
-如果你以为这就能达成交易，就*too young too simple*。
-因为客户往合约里存入1块钱之后，如果商家没有发货，那么顾客是没法从合约中取出这1块钱的。只要顾客不傻，他就不会打进去这1块钱，这次交易不可能完成。
+如果你以为这就能达成交易，就too young too simple。 因为客户往合约里存入1块钱之后，如果商家没有发货，那么合约中规定的流程就没法继续下去，顾客也没法从合约中取出这1块钱。所以只要顾客不傻，他就不会打进去这1块钱，这次交易不可能完成。
 
 商家可以这样改良买卖合约。合约里说（详细见下图）：
 1. 商家先往合约里存入1块钱，证明自己有价值1块钱的商品
@@ -41,7 +40,7 @@ Blockchain, DApps, Decentralized Applications, Ethereum
 4. 然后顾客确认收货之后，合约自动把3块钱中的2块钱打给商家
 5. 合约剩余的1块钱还给顾客
 
-![第三回合](https://upload-images.jianshu.io/upload_images/217988-48a43efdd6fb35ab.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![第三回合](https://insights.thoughtworks.cn/wp-content/uploads/2018/12/2.jpeg)
 
 通过这个例子，我们很惊奇地发现，在智能合约的辅助下，两个陌生人在没有中间人担保的情况下也可以完成一笔买卖的。
 
